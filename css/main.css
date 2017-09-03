@@ -1,25 +1,31 @@
 .main{
                 position: fixed;
-                margin-left: 166px;
+                margin-left: 163px;
+            }
+            body{
+                background-color: #ebebeb;
             }
             .logo{
                 height: 70px;
-                color:blue;
+                color:white;;
             }
             .logo h1{
                 padding-top: 15px;
                 font-size: 23px;
+                font-family: 'Baloo Tammudu', cursive;
             }
             .container_12{
-                background-color: blue;
+                background-color: #07b57a;
             }
-            .navbar{
+            .navbar1{
                 display: block;
-                background-color: green;
+                background-color: #0b714e;
                 height: 24px;
                 
             }
-            .navbar li{
+            .navbar1 li{
+             
+             
              display: inline;
              width:20%;
              text-align: center;
@@ -27,8 +33,9 @@
              border:1px solid black;
             }
             .navbar a{
+
                 font-style: none;
-                color:red;
+                color:white;
                 text-decoration: none;
             }
             .grid_2{
@@ -74,3 +81,49 @@
             footer li{
                 display: inline;
             }
+            .list-inline>li {
+        display: inline-block;
+        padding-left: 40px;
+        padding-right: 5px
+    }
+            .list-inline {
+            padding-left: 0;
+            list-style: none;
+            margin-left: -5px;
+        }
+
+        .adjust{
+            height: 242px;
+        }
+        .row h2{
+            
+        text-transform: uppercase;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: 700;
+        text-align: center;
+
+        }
+        #hidden-text_1{
+            margin-top:-128px;
+            display: none;
+            text-align: center;
+        }
+        .section1:hover #hidden-text_1{
+            display: block;
+        }
+        #hidden-text_2{
+            margin-top:-128px;
+            display: none;
+            text-align: center;
+        }
+        .section2:hover #hidden-text_2{
+            display: block;
+        }
+        #hidden-text_3{
+            margin-top:-128px;
+            display: none;
+            text-align: center;
+        }
+        .section3:hover #hidden-text_3{
+            display: block;
+        }
